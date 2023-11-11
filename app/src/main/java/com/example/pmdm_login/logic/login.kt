@@ -117,15 +117,6 @@ fun login(loginViewModel: LoginViewModel) {
         Spacer(modifier = Modifier.size(20.dp))
 
 
-        Text(
-            text = "Reset Password",
-            modifier = Modifier.clickable { }
-        )
-
-
-        Spacer(modifier = Modifier.size(20.dp))
-
-
         Button(
             onClick = {},
             enabled = visible,
